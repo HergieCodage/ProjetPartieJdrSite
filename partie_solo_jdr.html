@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTIE SOLO</title>
+</head>
+<body>
+    <h1><u><center>PARTIE SOLO D'INITIATION AU JDR</center></u></h1>
+        <p><center>Pour des raisons pratique, les personnages auront un fiche pré-rempli !</center> </p>
+        <p><center>Comme il s'agit d'une partie SOLO, la classe de Barde n'est pas présente !</center></p>
+    <br>
+
+    <script src="fiche_personnage.js"></script>
+
+    <script>
+        //CREATION DE LA FICHE PERSONNAGE
+        let titre1 = document.createElement('h2');
+        let titre1Texte = document.createTextNode('Votre Personnage !');
+        titre1.appendChild(titre1Texte);
+        titre1.setAttribute('style', "text-align:center;");
+        document.querySelector('body').appendChild(titre1);
+        let br = document.createElement('br');
+        document.querySelector('body').appendChild(br);
+        icones();
+        infoPersonnage();
+        statsPersonnage();
+
+    </script>
+</body>
+</html>
