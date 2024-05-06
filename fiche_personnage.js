@@ -145,7 +145,7 @@ function icones() {
     case "elfe":
       let tdRaceE = document.createElement("td");
       let imgRaceE = document.createElement("img");
-      imgRaceE.src = "../icones/elf.png";
+      imgRaceE.src = "../icones/elfe.png";
       imgRaceE.setAttribute("style", "height:100px;width:100px;");
       tdRaceE.appendChild(imgRaceE);
       document.querySelector("#ligne").appendChild(tdRaceE);
@@ -185,7 +185,7 @@ function icones() {
     case "semihomme":
       let tdRaceSH = document.createElement("td");
       let imgRaceSH = document.createElement("img");
-      imgRaceSH.src = "../icones/hobbit.jpg";
+      imgRaceSH.src = "../icones/semi-homme.png";
       imgRaceSH.setAttribute("style", "height:100px;width:100px;");
       tdRaceSH.appendChild(imgRaceSH);
       document.querySelector("#ligne").appendChild(tdRaceSH);
@@ -220,7 +220,7 @@ function icones() {
     case "berserker":
       let tdClasseB = document.createElement("td");
       let imgClasseB = document.createElement("img");
-      imgClasseB.src = "../icones/hache.png";
+      imgClasseB.src = "../icones/berserker.png";
       imgClasseB.setAttribute("style", "height:100px;width:100px;");
       tdClasseB.appendChild(imgClasseB);
       document.querySelector("#ligne").appendChild(tdClasseB);
